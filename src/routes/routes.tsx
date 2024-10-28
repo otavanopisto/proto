@@ -7,7 +7,7 @@ import ChakraComponent from "../chakra";
 import Home from "../home";
 
 const AppRoutes = () => (
-  <Router>
+  <Router basename="/proto">
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/mantine" element={<MantineComponent />} />
