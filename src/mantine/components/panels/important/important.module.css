@@ -1,0 +1,55 @@
+.container {
+  box-shadow: var(--mantine-shadow-sm);
+  border: 1px solid var(--mantine-color-muikku-1);
+  padding: var(--mantine-spacing-sm);
+  margin-bottom: 2rem;
+}
+
+.title {
+  display: flex;
+}
+
+.titleBadge {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.titleIcon {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.titleText {
+  font-weight: 300;
+  margin-left: 0.5rem;
+}
+
+.titleAction {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.hotkey {
+  margin-left: 20px;
+  align-items: center;
+}
+
+.workspace {
+  background-color: var(--mantine-color-muikku-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--mantine-spacing-sm);
+  margin-top: 10px;
+  height: 180px;
+}

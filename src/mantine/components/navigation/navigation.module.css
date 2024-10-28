@@ -1,0 +1,52 @@
+@import "/src/variables.css";
+
+.container {
+  color: #2c2c2c;
+  display: flex;
+  font-family: "Exo 2", Arial, "sans-serif";
+  font-size: 0.9375rem;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 4.5rem;
+  z-index: 99;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-usable-screen);
+}
+
+.mobileContainer {
+  color: #fff;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+}
+
+.drawerHeader {
+  background-color: var(--mantine-color-muikku-5);
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.buttons {
+  flex-grow: 1;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+
+  div:not(:last-child) {
+    margin-right: 1.25rem;
+  }
+}
